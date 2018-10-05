@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/danillouz/kyuu#readme",
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-runtime": "^7.1.0",
     "@danillouz/eslint-config-nodejs": "^1.7.0",
     "eslint": "^5.6.1",
     "eslint-config-prettier": "^3.1.0",
@@ -27,5 +29,8 @@
     "parcel-bundler": "^1.10.1",
     "prettier": "^1.14.3",
     "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2"
   }
 }
