@@ -15,12 +15,26 @@
     body {
       background-color: #f2f2f2;
     }
+
+    video {
+      background-color: #000;
+    }
+
+    button:disabled {
+      color: #ccc;
+    }
   </style>
 </head>
 
 <body>
   <div id="root">
     <video id="local-video" autoplay></video>
+    <video id="remote-video" autoplay></video>
+
+    <div>
+      <button id="start-call">start call</button>
+      <button id="end-call" disabled>end call</button>
+    </div>
   </div>
 
   <script src="./index.js"></script>
