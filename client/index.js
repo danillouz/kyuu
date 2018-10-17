@@ -114,7 +114,7 @@ async function startCall(event) {
   await localConn.setRemoteDescription(answer);
 }
 
-async function endCall(event) {
+function endCall() {
   console.log('end call');
 
   remoteConn.close();
