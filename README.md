@@ -1,4 +1,4 @@
-# kyuu
+# Learning WebRTC
 
 [WebRTC](https://webrtc.org/) applications attempt to establish a session between
 clients (peers) in order to directly connect them and stream data (peer-to-peer or p2p).
